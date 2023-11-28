@@ -18,14 +18,17 @@ cv.rectangle(blank,(0,0),(250,250),(0,255,0),thickness=2)
 
 #3.draw a circle
 cv.circle(blank,(250,250),40,(0,0,255),thickness=4)
+#parameters(img,origin,radius,color,thickness=None,lineType=None,shift=None,/)
 cv.imshow('circle',blank)
 
 #4. Draw a line
 cv.line(blank,(250,250),(0,0),(255,0,0),thickness=5)
+#parameters(img,pt1,pt2,color,thickness=None,lineType=None,shift=None,/)
 cv.imshow('line',blank)
 
 #5.Text on an Image
 cv.putText(blank,"Hello",(250,250),cv.FONT_HERSHEY_TRIPLEX,1.0,(255,255,255),thickness=2)
+#parameters(img,text,origin,fontface,fontscale,color,thickness=None,lineType=None,shift=None,/)
 cv.imshow('text',blank)
 
 cv.imshow('canvas',blank)
