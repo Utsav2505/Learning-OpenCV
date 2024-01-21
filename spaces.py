@@ -9,4 +9,8 @@ cv.imshow('example',img);
 gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 cv.imshow("gray",gray)
 
+#BGR to HSV(hue saturation value)
+hsv = cv.cvtColor(img,cv.COLOR_BGR2HSV)
+cv.imshow("hsv",hsv)
+
 cv.waitKey(0)
