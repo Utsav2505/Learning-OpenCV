@@ -10,6 +10,7 @@ cv.imshow('example',img)
 cv.waitKey(0)
 plt.imshow(img_rgb)
 plt.show()
+
 # cv.imshow('example',img)
 #openCV reads in BGR(Blue,Green,Red) format
 
