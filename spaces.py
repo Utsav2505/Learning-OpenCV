@@ -3,7 +3,10 @@
 import cv2 as cv
 import matplotlib.pyplot as plt
 
-img =cv.imread('Photos/example.jpg');
+img =cv.imread('E:\Documents\Python\Open CV\Learning\Photos\example.JPG')
+#matplotlib will show inverted color as opencv is  loading in BGR
+
+#BGR to RGB
 img_rgb = cv.cvtColor(img, cv.COLOR_BGR2RGB)
 
 cv.imshow('example',img)
