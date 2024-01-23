@@ -1,4 +1,4 @@
-
+#program to convert color channels
 #date-21 Jan,2023
 import cv2 as cv
 import matplotlib.pyplot as plt
