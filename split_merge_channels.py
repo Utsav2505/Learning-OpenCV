@@ -1,5 +1,5 @@
 #program to split/merge color channels
-#date-21 Jan,2023
+#date-23 Jan,2023
 import cv2 as cv
 import numpy as np
 
