@@ -11,5 +11,10 @@ import numpy as np
 img =cv.imread('E:\Documents\Python\Open CV\Learning\Photos\example.JPG')
 cv.imshow('img',img)
 
+gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
+cv.imshow('gray',gray)
+# simple thresholding
+threshold,thresh = cv.threshold(gray,150,255,cv.THRESH_BINARY)
+cv.imshow('thresh',thresh)
 
 cv.waitkey(0)
